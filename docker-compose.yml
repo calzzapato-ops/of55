@@ -8,7 +8,7 @@ services:
     build: .
     # image: ghcr.io/rightnow-ai/openfang:latest  # Uncomment when GHCR is public
     ports:
-      - "${OPENFANG_HOST_PORT:-4300}:4200"
+      - "${OPENFANG_HOST_PORT:-4400}:4200"
     volumes:
       - openfang-data:/data
     environment:
